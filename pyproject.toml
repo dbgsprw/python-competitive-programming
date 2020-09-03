@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-competitive-programming"
+version = "0.1.0"
+description = ""
+authors = ["dbgsprw <dbgsprw@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pytest = "^6.0.1"
+pytest-timeout = "^1.4.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0a5"]
+build-backend = "poetry.core.masonry.api"
